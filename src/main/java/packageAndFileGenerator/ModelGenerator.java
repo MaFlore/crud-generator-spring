@@ -2,7 +2,7 @@ package packageAndFileGenerator;
 
 public class ModelGenerator {
 
-    private void generateModel(String nomEntite, String nomPackage, String cheminDuModel) {
+    public void generateModel(String nomEntite, String nomPackage, String cheminDuModel) {
         String contenu = "package " + nomPackage + ".model;\n\n" +
                 "import javax.persistence.*;\n\n" +
                 "@Entity\n" +

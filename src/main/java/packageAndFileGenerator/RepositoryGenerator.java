@@ -2,7 +2,7 @@ package packageAndFileGenerator;
 
 public class RepositoryGenerator {
 
-    private static void generateRepository(String nomEntite, String nomDuPackage, String cheminDuRepository) {
+    public static void generateRepository(String nomEntite, String nomDuPackage, String cheminDuRepository) {
         String content = "package " + nomDuPackage + ".repository;\n\n" +
                 "import org.springframework.data.jpa.repository.JpaRepository;\n" +
                 "import " + nomDuPackage + ".model." + nomEntite + ";\n\n" +
