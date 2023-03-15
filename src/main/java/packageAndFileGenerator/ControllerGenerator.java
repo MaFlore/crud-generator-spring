@@ -38,6 +38,16 @@ public class ControllerGenerator {
                 "       }\n" +
                 "       return " + nomEntite.toLowerCase() + ";\n" +
                 "    }\n\n" +
+                "    @RequestMapping(value = \"/"+ nomEntite.toLowerCase() + "/save\", method = RequestMethod.POST, headers = \"Accept=Application/json\")\n" +
+                "    public "+ nomEntite +" save(@RequestBody "+ nomEntite + " " + nomEntite.toLowerCase() + ") {\n" +
+                "        try {\n" +
+                "            " + nomEntite.toLowerCase() + " = " + nomEntite.toLowerCase() + "Service.save(" + nomEntite.toLowerCase() + ");\n" +
+                "        } catch (Exception e) {\n" +
+                "            // TODO: handle exception\n" +
+                "            System.out.println(\"Erreur \" + e.getMessage());\n" +
+                "        }\n" +
+                "        return " + nomEntite.toLowerCase() + ";\n" +
+                "    }\n" +
                 "}\n";
         WriterFile writerFile = new WriterFile();
         writerFile.fileWriter(controllerPath + nomEntite + "Controller.java", contenu);
