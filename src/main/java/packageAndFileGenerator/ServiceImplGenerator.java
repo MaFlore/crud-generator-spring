@@ -14,27 +14,27 @@ public class ServiceImplGenerator {
                 "public class " + nomEntite + "ServiceImpl implements " + nomEntite + "Service {\n\n" +
                 "    @Autowired\n" +
                 "    private " + nomEntite + "Repository " + nomEntite.toLowerCase() + "Repository;\n\n" +
-                "    /*Fonction retournant toutes les occurrences de l'entité*/\n\n" +
+                "    /*Fonction retournant toutes les occurrences de l'entité*/\n" +
                 "    @Override\n" +
                 "    public List<" + nomEntite + "> findAll() {\n" +
                 "       return " + nomEntite.toLowerCase() + "Repository.findAll();\n" +
                 "    }\n\n" +
                 "    @Override\n" +
-                "    /*Fonction retournant les occurrences de l'entité en envoyant son id*/\n\n" +
+                "    /*Fonction retournant les occurrences de l'entité en envoyant son id*/\n" +
                 "    public " + nomEntite + " findById(Long id) {\n" +
                 "       return " + nomEntite.toLowerCase() + "Repository.findById(id).orElse(null);\n" +
                 "    }\n\n" +
-                "    /*Fonction d'ajout d'une occurence*/\n\n" +
+                "    /*Fonction d'ajout d'une occurence*/\n" +
                 "    @Override\n" +
                 "    public " + nomEntite + " save(" + nomEntite + " " + nomEntite.toLowerCase() + ") {\n" +
                 "       return " + nomEntite.toLowerCase() + "Repository.save(" + nomEntite.toLowerCase() + ");\n" +
                 "    }\n\n" +
-                "    /*Fonction de modification d'une occurence*/\n\n" +
+                "    /*Fonction de modification d'une occurence*/\n" +
                 "    @Override\n" +
                 "    public " + nomEntite + " update(" + nomEntite + " " + nomEntite.toLowerCase() + ") {\n" +
                 "       return " + nomEntite.toLowerCase() + "Repository.save(" + nomEntite.toLowerCase() + ");\n" +
                 "    }\n\n" +
-                "    /*Fonction de suppression d'une occurence par id*/\n\n" +
+                "    /*Fonction de suppression d'une occurence par id*/\n" +
                 "    @Override\n" +
                 "    public void deleteById(Long id) {\n" +
                 "    " + nomEntite.toLowerCase() + "Repository.deleteById(id);\n" +
