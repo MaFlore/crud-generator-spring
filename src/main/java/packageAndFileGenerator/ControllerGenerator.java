@@ -48,6 +48,16 @@ public class ControllerGenerator {
                 "        }\n" +
                 "        return " + nomEntite.toLowerCase() + ";\n" +
                 "    }\n" +
+                "    @RequestMapping(value = \"/"+ nomEntite.toLowerCase() + "/update\", method = RequestMethod.POST, headers = \"Accept=Application/json\")\n" +
+                "    public "+ nomEntite +" update(@RequestBody "+ nomEntite + " " + nomEntite.toLowerCase() + ") {\n" +
+                "        try {\n" +
+                "            " + nomEntite.toLowerCase() + " = " + nomEntite.toLowerCase() + "Service.update(" + nomEntite.toLowerCase() + ");\n" +
+                "        } catch (Exception e) {\n" +
+                "            // TODO: handle exception\n" +
+                "            System.out.println(\"Erreur \" + e.getMessage());\n" +
+                "        }\n" +
+                "        return " + nomEntite.toLowerCase() + ";\n" +
+                "    }\n" +
                 "}\n";
         WriterFile writerFile = new WriterFile();
         writerFile.fileWriter(controllerPath + nomEntite + "Controller.java", contenu);
