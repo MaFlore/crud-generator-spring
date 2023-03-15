@@ -47,7 +47,7 @@ public class ControllerGenerator {
                 "            System.out.println(\"Erreur \" + e.getMessage());\n" +
                 "        }\n" +
                 "        return " + nomEntite.toLowerCase() + ";\n" +
-                "    }\n" +
+                "    }\n\n" +
                 "    @RequestMapping(value = \"/"+ nomEntite.toLowerCase() + "/update\", method = RequestMethod.POST, headers = \"Accept=Application/json\")\n" +
                 "    public "+ nomEntite +" update(@RequestBody "+ nomEntite + " " + nomEntite.toLowerCase() + ") {\n" +
                 "        try {\n" +
@@ -57,7 +57,11 @@ public class ControllerGenerator {
                 "            System.out.println(\"Erreur \" + e.getMessage());\n" +
                 "        }\n" +
                 "        return " + nomEntite.toLowerCase() + ";\n" +
-                "    }\n" +
+                "    }\n\n" +
+                "    @RequestMapping(value = \"/"+ nomEntite.toLowerCase() + "/delete/{id}\", method = RequestMethod.DELETE, headers = \"Accept=Application/json\")\n" +
+                "    public void deleteById(@PathVariable Long id) {\n" +
+                "       this."+ nomEntite.toLowerCase() + "Service.deleteById(id);\n"+
+                "    }\n\n" +
                 "}\n";
         WriterFile writerFile = new WriterFile();
         writerFile.fileWriter(controllerPath + nomEntite + "Controller.java", contenu);
