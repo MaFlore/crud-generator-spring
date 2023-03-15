@@ -18,14 +18,25 @@ public class ControllerGenerator {
                 "    private " + nomEntite + "Service " + nomEntite.toLowerCase() + "Service;\n\n" +
                 "    @RequestMapping(value = \"/"+ nomEntite.toLowerCase() + "s\", method = RequestMethod.GET)\n" +
                 "    public List<" + nomEntite + "> findAll() {\n" +
-                "       List<" + nomEntite + "> \t " + nomEntite.toLowerCase() + "s\" = new ArrayList<>();\n" +
+                "       List<" + nomEntite + "> " + nomEntite.toLowerCase() + "s = new ArrayList<>();\n" +
                 "       try {\n" +
-                "           \""+ nomEntite.toLowerCase() + "s\" = " + nomEntite.toLowerCase() + "Service.findAll();\n" +
+                "           "+ nomEntite.toLowerCase() + "s = " + nomEntite.toLowerCase() + "Service.findAll();\n" +
                 "       } catch (Exception e) {\n" +
                 "           // TODO: handle exception\n" +
                 "           System.out.println(\"Erreur \" + e.getMessage());\n" +
                 "       }\n" +
-                "       return " + nomEntite.toLowerCase() + "s\";\n" +
+                "       return " + nomEntite.toLowerCase() + "s;\n" +
+                "    }\n\n" +
+                "    @RequestMapping(value = \"/"+ nomEntite.toLowerCase() + "/{id}\", method = RequestMethod.GET)\n" +
+                "    public "+ nomEntite + " findById(@PathVariable Long id){\n" +
+                "        " + nomEntite + " " + nomEntite.toLowerCase() + " = new " + nomEntite + "();\n" +
+                "       try {\n" +
+                "           "+ nomEntite.toLowerCase() + " = " + nomEntite.toLowerCase() + "Service.findById(id);\n" +
+                "       } catch(Exception e) {\n" +
+                "           // TODO: handle exception\n" +
+                "           System.out.println(\"Erreur \" + e.getMessage());\n" +
+                "       }\n" +
+                "       return " + nomEntite.toLowerCase() + ";\n" +
                 "    }\n\n" +
                 "}\n";
         WriterFile writerFile = new WriterFile();
