@@ -2,7 +2,7 @@ package packageAndFileGenerator;
 
 public class ControllerGenerator {
 
-    public static void generateController(String nomEntite, String packageName, String controllerPath) {
+    public void generateController(String nomEntite, String packageName, String controllerPath) {
         String contenu = "package " + packageName + ".controller;\n\n" +
                 "import java.util.List;\n" +
                 "import java.util.ArrayList;\n" +

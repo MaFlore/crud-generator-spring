@@ -2,7 +2,7 @@ package packageAndFileGenerator;
 
 public class ServiceImplGenerator {
 
-    public static void generateServiceImpl(String nomEntite, String nomDuPackage, String cheminDuServiceImpl) {
+    public void generateServiceImpl(String nomEntite, String nomDuPackage, String cheminDuServiceImpl) {
         String contenu = "package " + nomDuPackage + ".serviceImpl;\n\n" +
                 "import org.springframework.beans.factory.annotation.Autowired;\n" +
                 "import org.springframework.stereotype.Service;\n" +
