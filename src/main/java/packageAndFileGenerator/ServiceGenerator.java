@@ -14,9 +14,9 @@ public class ServiceGenerator {
                 "    /*Fonction retournant les occurrences de l'entité en envoyant son id*/\n" +
                 "    " + nomEntite + " findById(Long id);\n\n" +
                 "    /*Fonction d'ajout d'une occurence*/\n" +
-                "    " + nomEntite + " save("+ nomEntite.toLowerCase() + ");\n\n" +
+                "    " + nomEntite + " save("+ nomEntite + " "+ nomEntite.toLowerCase() + ");\n\n" +
                 "    /*Fonction de modification d'une occurence*/\n" +
-                "    " + nomEntite + "update("+ nomEntite.toLowerCase() + ");\n\n" +
+                "    " + nomEntite + " update("+ nomEntite + " "+ nomEntite.toLowerCase() + ");\n\n" +
                 "    /*Fonction de suppression d'une occurence par id*/\n" +
                 "    void deleteById(Long id);\n\n" +
                 "}";
