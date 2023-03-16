@@ -11,9 +11,9 @@ public class WriterFile {
             BufferedWriter writer = new BufferedWriter(new FileWriter(cheminDuFichier));
             writer.write(contenu);
             writer.close();
-            System.out.println("Fichier écrit avec succès.");
+            System.out.println("Fichier écrit avec succès !");
         } catch (IOException e) {
-            System.out.println("Erreur.");
+            System.out.println("Erreur !");
             e.printStackTrace();
         }
     }
