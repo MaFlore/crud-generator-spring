@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="spring-crud-generator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/spring_crud_generator_jar</output-path>
+    <root id="archive" name="spring-crud-generator.jar">
+      <element id="module-output" name="spring-crud-generator" />
+    </root>
+  </artifact>
+</component>

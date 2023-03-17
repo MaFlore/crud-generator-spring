@@ -8,18 +8,20 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello My Friends, moi c'est MaFlore!");
-        System.out.println("Je suis capable de vous aidez en générant le CRUD d'une entité en spring;");
-        System.out.println("Pour se faire, vous devez vous assurez que vous avez ajouter toutes");
-        System.out.println("les dependances possibles dans le pom.xml de votre projet générer depuis");
-        System.out.println("https://start.spring.io/");
+        System.out.println("Je suis capable de vous aidez en générant le CRUD d'une entité en spring ,");
+        System.out.println("Pour se faire, vous devez vous assurez que vous avez ajouter toutes ,");
+        System.out.println("les dependances possibles dans le pom.xml de votre projet générer depuis ,");
+        System.out.println("https://start.spring.io/ ,");
 
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Copiez le chemin vers votre projet dans lequel \nVous voulez générer le crud (ex: C:\\mon_projet): ");
+        String cheminPrincipal = scanner.nextLine();
         System.out.print("Entrez le nom de votre package (ex: com.example ): ");
         String nomDuPackage = scanner.nextLine();
         System.out.print("Entrez le nom de l'entité (ex: User): ");
         String nomEntite = scanner.nextLine();
 
-        String srcPath = "src/main/java/" + nomDuPackage.replace(".", "/") + "/";
+        String srcPath = cheminPrincipal + "/src/main/java/" + nomDuPackage.replace(".", "/") + "/";
         String cheminDuModel = srcPath + "model/";
         String cheminDuRepository = srcPath + "repository/";
         String cheminDuService = srcPath + "service/";
@@ -49,7 +51,7 @@ public class Main {
         ControllerGenerator controllerGenerator = new ControllerGenerator();
         controllerGenerator.generateController(nomEntite, nomDuPackage, cheminDuController);
 
-        System.out.println("Le CRUD pour " + nomDuPackage + " a été généré avec succès !");
+        System.out.println("Votre CRUD a été généré avec succès !");
         System.out.println("Merci d'avoir faire confiance à MaFlore !");
     }
 }
