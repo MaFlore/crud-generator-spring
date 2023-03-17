@@ -14,7 +14,7 @@ public class Main {
         System.out.println("https://start.spring.io/");
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Entrez le nom de votre package (ex: maflore.tech ): ");
+        System.out.print("Entrez le nom de votre package (ex: com.example ): ");
         String nomDuPackage = scanner.nextLine();
         System.out.print("Entrez le nom de l'entité (ex: User): ");
         String nomEntite = scanner.nextLine();
