@@ -10,8 +10,8 @@
    - *au niveau de **Project Metadata**, remplissez les champs selon vos choix en respectant la manière nous l'avions fait sur la capture tout en laissant le packaging en **jar*** ;
    - *pour les dépendances, ajouter les comme il est fait sur la capture* ;
 *2. Ensuite, une fois que tout est bon, cliquez sur **GENERATE** pour générer votre projet spring*
-    ![2](https://github.com/MaFlore/spring-crud-generator/blob/main/generate.spring.png)
+    ![2](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/generate.spring.png)
     
 *3. Pour vous assurer que votre projet est généré, allez dans votre **explorateur de fichier** et cliquez sur **Téléchargements** si votre machine est en français, dans le cas contraire cliquez sur **Downloads***
-    ![3](https://github.com/MaFlore/spring-crud-generator/blob/main/telechargement.png).
+    ![3](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/telechargement.png).
     *Vu que le nom de notre projet est : **mon_projet** d'après la capture, c'est pour cela le dossier zippé ou le projet généré depuis le site se nomme : **mon_projet***
