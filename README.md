@@ -50,9 +50,9 @@
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/mon_projet.disque.c.png)
     *Ainsi, on copie le chemin vers l'emplacement de notre projet généré et on vient coller ça dans notre CMD.*
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/img2.png)
-    *Une fois, cette partie validée on nous demande le **groupId***
+    *Une fois, cette partie validée on nous demande d'entrer le **groupId**.*
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/groupid.png)
-    *Pour trouver le **groupId**, dirigeons-nous dans le **pom.xml** de notre projet*
+    *Pour trouver le **groupId**, dirigeons-nous dans le **pom.xml** de notre projet.*
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/group.id.png)
     *Une fois dans le **pom.xml** notre **groupId** est : **com.example**.*
     *Ainsi, allons dans notre CMD pour valider notre **groupId**.*
