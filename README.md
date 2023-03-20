@@ -4,7 +4,7 @@
 ### *Prérequis :*
 *Pour développer des applications avec Spring Boot sur votre machine, vous avez besoin des éléments suivants :*
 
-1. [ ] *Java Development Kit (JDK) : Spring Boot est construit sur le langage de programmation Java, donc vous devez installer une version récente du JDK sur votre machine. Et cela n'est pas une obligation.Vous pouvez installer la dernière version précisement le 11 ;*
+1. [ ] *Java Development Kit (JDK) : Spring Boot est construit sur le langage de programmation Java, donc vous devez installer une version récente du JDK sur votre machine. Et cela n'est pas une obligation. Vous pouvez installer une ancienne version précisement le 11 ;*
 
 2. [ ] *Un environnement de développement intégré (IDE) : bien qu'il soit possible de développer des applications Spring Boot avec un simple éditeur de texte, il est recommandé d'utiliser un IDE pour améliorer la productivité. Les IDE les plus populaires pour développer des applications Spring Boot sont Eclipse, IntelliJ IDEA et Visual Studio Code ;*
 
@@ -18,8 +18,7 @@
 
 ### *Manuel d'utilisation*
 
-*1. Pour commencer, dirigeons-nous sur le site suivant: https://start.spring.io/ pour générer notre projet avant de générer le **crud** de nos entités.*
-    *Vous devez savoir que vous n'êtes pas obligé d'aller sur ce site si vous avez déjà généré votre projet d'avance.*
+*1. Pour commencer, dirigeons-nous sur le site suivant: https://start.spring.io/ pour générer notre projet **Spring** avant de générer le **crud** de nos entités.*
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/start.spring.io.png)
     
    - *au niveau de **Project**, nous avons choisi maven ;*
@@ -30,7 +29,7 @@
 *2. Ensuite, une fois que tout est bon, cliquez sur **GENERATE** pour générer votre projet spring*
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/generate.spring.png)
     
-*3. Pour vous assurer que votre projet a été bien généré, allez dans votre **explorateur de fichier** et cliquez sur **Téléchargements** si votre machine est en français, dans le cas contraire, cliquez sur **Downloads***
+*3. Pour vous assurer que votre projet a été bien généré, allez dans votre **explorateur de fichier** et cliquez sur **Téléchargements** si votre machine/PC est en français, dans le cas contraire, cliquez sur **Downloads***
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/telechargement.png)
     *Vu que le nom de notre projet est : **mon_projet** d'après la capture, c'est pour cela le dossier zippé ou le projet généré depuis le site se nomme : **mon_projet***
 
@@ -38,8 +37,11 @@
     *Dans mon cas ici je vais le mettre sur mon disque C:*
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/mon_projet.disque.c.png)
 
-*5. Téléchargez ensuite **le fichier jar de notre projet en suivant ce lien : [https://github.com/MaFlore/download/spring-crud-generator.jar](https://github.com/MaFlore/spring-crud-generator/raw/main/spring-crud-generator.jar)**. Ce fichier téléchargé vous permettra de générer le CRUD d'une entité en **Spring** à partir du **CMD (ligne de commande/Console)**.*
+*5. Téléchargez ensuite **l'outil de génération de CRUD en suivant ce lien : [https://github.com/MaFlore/download/spring-crud-generator.jar](https://github.com/MaFlore/spring-crud-generator/raw/main/spring-crud-generator.jar)**. Cet outil téléchargé vous permettra de générer le CRUD d'une entité en **Spring** à partir du **CMD (ligne de commande/Console)**.*
 
-*6. Le fichier téléchargé : **spring-crud-generator.jar** se retrouvera dans **téléchargements/downloads** sur votre machine/PC une fois le téléchargement terminé.*
+*6. L'outil téléchargé : **spring-crud-generator.jar** se retrouvera dans **téléchargements/downloads** sur votre machine/PC une fois le téléchargement terminé.*
     *On va ensuite le déplacer sur notre disque C: dans le dossier **users/utilisateur-courant** ou soit n'importe quel emplacement sur votre machine/PC où vous pouvez le retrouver une fois que vous en aurez besoin. Dans mon cas ici **l'utilisateur courant est Mathis**, donc l'emplacement sera **C:/users/Mathis**.*
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/users.mathis.png)
+
+*7. À présent, nous allons générer le **CRUD d'une entité au choix dans le projet généré** depuis le site officielle de spring nommé : **mon_projet**.*
+    *Pour commencer lançons notre **CMD** et entrons la commande : **java -jar spring-crud-generator.jar***
