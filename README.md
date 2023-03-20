@@ -45,8 +45,8 @@
 
 *7. À présent, nous allons générer le **CRUD d'une entité au choix dans le projet généré** depuis le site officielle de spring nommé : **mon_projet**.*
     *Pour commencer lançons notre **CMD** et entrons la commande : **java -jar spring-crud-generator.jar***
-    *Une fois cette commande validée, nous aurons dans notre CMD un message de salutation, ensuite on nous demande de copier le chemin vers le projet dans lequel on veut générer le CRUD. ![alt](https://https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/img1.png) Ici nous allons dans notre explorateur cherché l'emplacement où on a mis le projet généré depuis le site officiel de spring*
+    *Une fois cette commande validée, nous aurons dans notre CMD un message de salutation, ensuite on nous demande de copier le chemin vers le projet dans lequel on veut générer le CRUD. ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/img1.png) Ici nous allons dans notre explorateur cherché l'emplacement où on a mis le projet généré depuis le site officiel de spring*
     *Dans notre cas ici, c'est sur notre disque C:*
-    ![alt](https://https://https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/mon_projet.disque.c.png)
+    ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/mon_projet.disque.c.png)
     *Ainsi, on copie le chemin vers l'emplacement de notre projet généré et on vient coller ça dans notre CMD*
-    ![alt](https://https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/img2.png)
+    ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/img2.png)
