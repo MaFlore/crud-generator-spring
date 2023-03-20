@@ -38,4 +38,4 @@
     *Dans mon cas ici je vais le mettre sur mon disque C:*
     ![4](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/mon_projet.disque.c.png)
 
-*5. Téléchargez ensuite **le fichier jar de notre projet en suivant ce lien : [text](https://github.com/MaFlore/spring-crud-generator/blob/main/spring-crud-generator.jar)**. Ce fichier téléchargé vous permettra de générer le CRUD d'une entité en **Spring** à partir du **CMD (ligne de commande/Console)**.*
+*5. Téléchargez ensuite **le fichier jar de notre projet en suivant ce lien : [https://github.com/MaFlore/spring-crud-generator/blob/main/spring-crud-generator.jar](https://github.com/MaFlore/spring-crud-generator/blob/main/spring-crud-generator.jar)**. Ce fichier téléchargé vous permettra de générer le CRUD d'une entité en **Spring** à partir du **CMD (ligne de commande/Console)**.*
