@@ -48,5 +48,15 @@
     *Une fois cette commande validée, nous aurons dans notre CMD un message de salutation, ensuite on nous demande de copier le chemin vers le projet dans lequel on veut générer le CRUD. ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/img1.png) Ici nous allons dans notre explorateur cherché l'emplacement où on a mis le projet généré depuis le site officiel de spring*
     *Dans notre cas ici, c'est sur notre disque C:*
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/mon_projet.disque.c.png)
-    *Ainsi, on copie le chemin vers l'emplacement de notre projet généré et on vient coller ça dans notre CMD*
+    *Ainsi, on copie le chemin vers l'emplacement de notre projet généré et on vient coller ça dans notre CMD.*
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/img2.png)
+    *Une fois, cette partie validée on nous demande le **groupId***
+    ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/groupid.png)
+    *Pour trouver le **groupId**, dirigeons-nous dans le **pom.xml** de notre projet*
+    ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/group.id.png)
+    *Une fois dans le **pom.xml** notre **groupId** est : **com.example**.*
+    *Ainsi, allons dans notre CMD pour valider notre **groupId**.*
+    ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/groupid.v.png)
+    *Nous venons de valider le **groupId** et on nous demande d'entrer le nom de l'entité pour laquelle on veut générer le CRUD.*
+    *L'entité choisie dans notre cas est : Etudiant*
+    ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/entity.png)
