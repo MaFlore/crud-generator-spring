@@ -52,9 +52,7 @@
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/img2.png)
     *Une fois, cette partie validée on nous demande d'entrer le **groupId**.*
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/groupid.png)
-    *Pour trouver le **groupId**, dirigeons-nous dans le **pom.xml** de notre projet.*
-    ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/group.id.png)
-    *Une fois dans le **pom.xml** notre **groupId** est : **com.example**.*
+    *Pour trouver le **groupId**, dirigeons-nous dans le **pom.xml** de notre projet.*![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/group.id.png) *Une fois dans le **pom.xml** notre **groupId** est : **com.example**.*
     *Ainsi, allons dans notre CMD pour valider notre **groupId**.*
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/groupid.v.png)
     *Nous venons de valider le **groupId** et on nous demande d'entrer le nom de l'entité pour laquelle on veut générer le CRUD.*
