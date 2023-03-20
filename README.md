@@ -36,4 +36,4 @@
 
 *4. Maintenant dézippons notre projet généré et mettons-le à un endroit dans votre explorateur où vous pouvez le retrouver plutard.*
     *Dans mon cas ici je vais le mettre sur mon disque C:*
-    ![4](https://github.com/MaFlore/spring-crud-generator/blob/main/mon_projet.disque.c.png)
+    ![4](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/mon_projet.disque.c.png)
