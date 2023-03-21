@@ -62,8 +62,7 @@
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/entity.png)
     *Lorsque nous validons cette partie, notre CRUD sera généré avec succès et on va nous demander si on veut générer le CRUD d'une autre entité ? Si on entre **Oui** on va nous demander le nom de l'entité dans le cas contraire le programme s'arrête.*
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/entity.v.png)
-    
-*   *Pour s'assurer que notre **CRUD** est bien généré ouvrons le projet dans un éditeur*
+    *Pour s'assurer que notre **CRUD** est bien généré ouvrons le projet dans un éditeur*
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/crud.v.png)
     *Une fois que nous voyons le package **controller**, **service**, **serviceImpl**, **model** et **repository** alors notre CRUD est bien généré.*
 
