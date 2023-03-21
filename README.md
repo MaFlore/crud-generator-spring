@@ -54,12 +54,11 @@
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/img2.png)
     *Une fois, cette partie validée on nous demande d'entrer le **Package name**.*
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/package.name.png)
-    *Pour trouver le **Package name**, dirigeons-nous dans le **pom.xml** de notre projet.*![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/group.id.png)
-    *Une fois dans le **pom.xml** notre **groupId** est : **com.example**.*
+    *Le **Package name** de notre projet dans ce tutoriel est : **com.example.app**.*
     *Ainsi, allons dans notre CMD pour valider notre **Package name**.*
-    ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/groupid.v.png)
-    *Nous venons de valider le **Package name** et on nous demande d'entrer le nom de l'entité pour laquelle on veut générer le CRUD.*
-    *L'entité choisie dans notre cas est : Etudiant*
+    ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/package.name.v.png)
+    *Nous venons de valider le **Package name** et on nous demande d'entrer le **nom de l'entité** pour laquelle on veut générer le CRUD.*
+    *L'entité choisie dans notre cas est : **Etudiant***
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/entity.png)
     *Lorsque nous validons cette partie, notre CRUD sera généré avec succès et on va nous demander si on veut générer le CRUD d'une autre entité ? Si on entre **Oui** on va nous demander le nom de l'entité dans le cas contraire le programme s'arrête.*
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/entity.v.png)
