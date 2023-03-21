@@ -63,5 +63,8 @@
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/entity.v.png)
     *Pour s'assurer que notre CRUD est bien généré ouvrons le projet dans un éditeur*
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/crud.v.png)
-    *Une fois que nous voyons le package **controller**, **service**, **serviceImpl**, **model** et **repository** alors notre CRUD est bien généré*
+    *Une fois que nous voyons le package **controller**, **service**, **serviceImpl**, **model** et **repository** alors notre CRUD est bien généré.*
+
+*8. ***Merci de nous avoir suivis.****
+    ***Cet outil est notre version 1, nous essayerons d'apporter des mises à jour lors des éditions prochaines.***
 
