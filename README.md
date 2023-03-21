@@ -1,5 +1,6 @@
 # *spring-crud-generator V.1*
 *Miniapplication **Java** offrant une console pour générer le **CRUD** d'une entité en **spring** !*
+*Téléchargeable sur le lien : [https://github.com/MaFlore/download/spring-crud-generator.jar](https://github.com/MaFlore/spring-crud-generator/raw/main/spring-crud-generator.jar)*
 
 ### *Prérequis :*
 *Pour développer des applications avec Spring Boot sur votre machine, vous avez besoin des éléments suivants :*
@@ -64,7 +65,8 @@
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/entity.v.png)
     *Pour s'assurer que notre **CRUD** est bien généré ouvrons le projet dans un éditeur*
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/crud.v.png)
-    *Une fois que nous voyons le package **controller**, **service**, **serviceImpl**, **model** et **repository** alors notre CRUD est bien généré.*
+
+*    *Une fois que nous voyons le package **controller**, **service**, **serviceImpl**, **model** et **repository** alors notre CRUD est bien généré.*
 
 ### *Merci de nous avoir suivis!👊*
 *Cet outil est notre version 1, nous essayerons d'apporter des mises à jour lors des éditions prochaines.*
