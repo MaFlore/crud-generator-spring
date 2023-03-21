@@ -26,16 +26,18 @@
    - *au niveau de **Project Metadata**, remplissez les champs selon vos choix en respectant la manière nous l'avions fait sur la capture tout en laissant le packaging en **jar** ;*
    - *pour les dépendances, ajouter les comme il est fait sur la capture.*
 
+   *NB: N'oubliez pas la valeur du **Package name**. Retenez-le en tête. Dans notre cas ici c'est : **com.example.app**. Nous aurons besoin de ça lorsqu'on essayera de générer le CRUD avec l'outil **spring-crud-generator***
+
 *2. Ensuite, une fois que tout est bon, cliquez sur **GENERATE** pour générer votre projet spring*
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/generate.spring.png)
     
 *3. Pour vous assurer que votre projet a été bien généré, allez dans votre **explorateur de fichier** et cliquez sur **Téléchargements** si votre machine/PC est en français, dans le cas contraire, cliquez sur **Downloads***
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/telechargement.png)
-    *Vu que le nom de notre projet est : **mon_projet** d'après la capture, c'est pour cela le dossier zippé ou le projet généré depuis le site se nomme : **mon_projet***
+    *Vu que le nom de notre projet est : **app** d'après la capture, c'est pour cela le dossier zippé ou le projet généré depuis le site se nomme : **app***
 
 *4. Maintenant dézippons notre projet généré et mettons-le à un endroit dans votre explorateur où vous pouvez le retrouver plutard.*
     *Dans mon cas ici je vais le mettre sur mon disque C:*
-    ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/mon_projet.disque.c.png)
+    ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/app.disque.c.png)
 
 *5. Téléchargez ensuite **l'outil de génération de CRUD en suivant ce lien : [https://github.com/MaFlore/download/spring-crud-generator.jar](https://github.com/MaFlore/spring-crud-generator/raw/main/spring-crud-generator.jar)**. Cet outil téléchargé vous permettra de générer le CRUD d'une entité en **Spring** à partir du **CMD (ligne de commande/Console)**.*
 
@@ -45,7 +47,7 @@
 
 *7. À présent, nous allons générer le **CRUD d'une entité au choix dans le projet généré** depuis le site officielle de spring nommé : **mon_projet**.*
     *Pour commencer lançons notre **CMD** et entrons la commande : **java -jar spring-crud-generator.jar**.*
-    *Une fois cette commande validée, nous aurons dans notre CMD un message de salutation, ensuite on nous demande de copier le chemin vers le projet dans lequel on veut générer le CRUD. ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/img1.png) Ici nous allons dans notre explorateur cherché l'emplacement où on a mis le projet généré depuis le site officiel de spring*
+    *Une fois cette commande validée, nous aurons dans notre CMD un message de salutation, ensuite on nous demande de copier le chemin vers le projet dans lequel on veut générer le CRUD. ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/img1.png)Ici, nous allons dans notre explorateur cherché l'emplacement où on a mis le projet généré depuis le site officiel de spring*
     *Dans notre cas ici, c'est sur notre disque C:*
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/mon_projet.disque.c.png)
     *Ainsi, on copie le chemin vers l'emplacement de notre projet généré et on vient coller ça dans notre CMD.*
