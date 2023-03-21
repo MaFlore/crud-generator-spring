@@ -10,21 +10,22 @@ public class Main {
 
         boolean continuer = true;
 
-        System.out.println("Hello My Friends, moi c'est MaFlore!");
-        System.out.println("Je suis capable de vous aidez à générer le CRUD d'une entité en spring ,");
-        System.out.println("Pour se faire, vous devez vous assurez que vous avez ajouter toutes ,");
-        System.out.println("les dependances possibles dans le pom.xml de votre projet générer depuis ,");
-        System.out.println("https://start.spring.io/ ,");
-        System.out.println("Pour commencer : ");
+        System.out.println("\n    Hello My Friends, moi c'est MaFlore!😊");
+        System.out.println("    Je suis capable de vous aidez à générer le CRUD d'une entité en spring,");
+        System.out.println("    Pour se faire, vous devez vous assurez que vous avez ajouter toutes,");
+        System.out.println("    les dependances possibles dans le pom.xml de votre projet générer depuis,");
+        System.out.println("    https://start.spring.io/,\n");
+        System.out.println("    Pour commencer : ");
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("\nCopiez le chemin vers votre projet dans lequel \nVous voulez générer le crud (ex: C:\\mon_projet): ");
+        System.out.print("    Copiez le chemin vers votre projet dans lequel vous voulez générer le crud : ");
         String cheminPrincipal = scanner.nextLine();
-        System.out.print("Entrez le <groupId> que votre projet (ex: com.example ): ");
+        System.out.print("    Entrez le Package name de votre projet (ex: com.example ): ");
         String nomDuPackage = scanner.nextLine();
         while (continuer) {
-            System.out.print("Entrez le nom de l'entité (ex: User): ");
+            System.out.print("    Entrez le nom de l'entité (ex: User): ");
             String nomEntite = scanner.nextLine();
+            System.out.print("\n");
 
             String cheminVersLaSource = cheminPrincipal + "/src/main/java/" + nomDuPackage.replace(".", "/") + "/";
             String cheminDuModel = cheminVersLaSource + "model/";
@@ -56,16 +57,16 @@ public class Main {
             ControllerGenerator controllerGenerator = new ControllerGenerator();
             controllerGenerator.generateController(nomEntite, nomDuPackage, cheminDuController);
 
-            System.out.println("\nLe CRUD de "+ nomEntite + " a été généré avec succès !");
+            System.out.println("\n    Le CRUD de "+ nomEntite + " a été généré avec succès !");
 
             // Demander à l'utilisateur s'il veut continuer
-            System.out.print("Voulez-vous générer le CRUD d'une autre entité ? (Oui/Non) : ");
+            System.out.print("    Voulez-vous générer le CRUD d'une autre entité ? (Oui/Non) : ");
             String reponse = scanner.nextLine();
             // Sortir de la boucle si l'utilisateur répond "non"
             if (!reponse.equalsIgnoreCase("oui") || !reponse.equalsIgnoreCase("Oui")) {
                 continuer = false;
             }
         }
-        System.out.println("Merci d'avoir faire confiance à MaFlore !");
+        System.out.println("    Merci d'avoir faire confiance à MaFlore !");
     }
 }
