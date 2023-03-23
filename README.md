@@ -38,14 +38,12 @@
 
 *4. Maintenant dézippons notre projet généré et mettons-le à un endroit dans votre explorateur où vous pouvez le retrouver plutard.*
     *Dans mon cas ici je vais le mettre sur mon disque C:*
-    
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/app.disque.c.png)
 
 *5. Téléchargez ensuite **l'outil de génération de CRUD en suivant ce lien : [https://github.com/MaFlore/download/spring-crud-generator.jar](https://github.com/MaFlore/spring-crud-generator/raw/main/spring-crud-generator.jar)**. Cet outil téléchargé vous permettra de générer le CRUD d'une entité en **Spring** à partir du **CMD (ligne de commande/Console)**.*
 
 *6. L'outil téléchargé : **spring-crud-generator.jar** se retrouvera dans **téléchargements/downloads** sur votre machine/PC une fois le téléchargement terminé.*
     *On va ensuite le déplacer sur notre disque C: dans le dossier **users/utilisateur-courant** ou soit n'importe quel emplacement sur votre machine/PC où vous pouvez le retrouver une fois que vous en aurez besoin. Dans notre cas ici **l'utilisateur courant est Mathis**, donc l'emplacement sera **C:/users/Mathis**.*
-
     ![alt](https://github.com/MaFlore/spring-crud-generator/blob/main/images_docs/users.mathis.png)
 
 *7. À présent, nous allons générer le **CRUD d'une entité au choix dans le projet généré** depuis le site officielle de spring nommé : **app**.*
